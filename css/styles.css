@@ -20,6 +20,7 @@ body {
   font-weight: var(--fw);
   font-size: var(--fs);
   line-height: 1.6;
+  padding: 10px 20px;
 }
 
 a {
@@ -96,6 +97,13 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+form {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
 }
 
 .profile {
@@ -207,5 +215,6 @@ button:focus,
 
   h1 {
     font-size: 22px;
+    padding: 10px 20px;
   }
 }
